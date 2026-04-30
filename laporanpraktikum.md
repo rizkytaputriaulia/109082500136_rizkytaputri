@@ -38,7 +38,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul10/output/output-soal1.png)
+!(https://github.com/rizkytaputriaulia/ss_soal1.go/blob/main/Screenshot%202026-04-30%20162935.png)
 program tersebut di gunakan untuk mendata berat anak kelinci. pertama-tama membuat program array yang dimana aarray tersebut menyimpan kapasitas maksimum sebesar 1000 kapasitas tersebut tidak dapat di ubah. kemudian membuat program func main, didalam func main membuat variabel arr dan n, kemudian pengguna menginputkan 1 bilangan yang dimana bilangan tersebut disimpan dalam variabel n, dan inputan n tersebut untuk menentukan jumlah kelinci. Kemudian masuk kedalam code perulangan yang dimana perulangan tersebut datanya disimpan pada array. kemudian setelah array tersimpan program mulai mencari berat kelinci terbesar dan terkecil, pencarian tersebut menggunakan percabangan, dimana jika nilai lebih kecil dari min maka nilai akan menggantikan min dan jika nilai lebih besar dari max maka akan menggantikan max dan perulangan tersebut akan terus berjalan sampai elemen dalam array diperiksa semua. kemudian program menampilkan berat terkecil dan berat terbesar
 
 ## Unguided 
@@ -93,7 +93,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul10/output/output-soal1.png)
+!(https://github.com/rizkytaputriaulia/ss_soal2.go/blob/main/Screenshot%202026-04-30%20170145.png)
 program tersebut di gunakan untuk menentukan tarif ikan yang akan dijual dipasar. pertamaa tama membuat program array terlebih dahulu yang dimana kapasitas maksimalnya 1000. kemudian membuat func main didalam func main terdapat variabel arr, variabel hasil dan variabel x dan y. kemudian pengguna menginputkan 2 bilangan yaitu bilangan x menyatakan jumlah ikan dan jumlah y menyatakan kapasitas dalam 1 wadah. kemudian program masuk kedalam perulangan idx < x, dan didalam tersebut terdapat perulangan lagi yaitufor hitung < y && idx > x. fungsi perulangan ini untuk memastikan jumlah ikan dalam satu wadah dan tidak melebihi kapasitas y. dimana variabel idx ditambah ke variabel total dan idx akan terus bertambah ke ikan berikutnya dan variabel hitung akan bertambah untuk mencatat jumlah ikan dalam wadah. kemudian terdapat perulangan lagi dan setelah itu nilai total disimpan dalam array dan setelah ikan di kelompokan program akan mencetak hail pada posisi jumlah wadah.  kemudian program membuat perulangan lagi dan membuat perhitungan rata-rata  berat per wadah. dimana rumusnya rata = penjumlahan dibagi dengan jumlah wadah. 
 
 ## Unguided
@@ -159,5 +159,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul10/output/output-soal1.png)
+!(https://github.com/rizkytaputriaulia/ss_soal3.go/blob/main/Screenshot%202026-04-30%20195102.png)
 Program ini dibuat untuk membantu petugas posyandu dalam mengolah data berat badan balita yang sudah dicatat. Data yang dimasukkan akan disimpan ke dalam sebuah array, lalu program akan membaca satu per satu untuk mencari nilai terkecil dan terbesar. Selain itu, program juga menghitung rata-rata dari seluruh data yang ada supaya bisa memberikan gambaran umum kondisi berat badan balita yang diperiksa. pengguna diminta memasukkan jumlah data lalu menginput berat balita satu per satu. Setelah semua data masuk, program langsung memproses tanpa langkah yang rumit dan menampilkan hasilnya dengan format yang rapi. Hasil akhir yang ditampilkan berupa berat minimum, maksimum, dan rata-rata sehingga memudahkan petugas dalam melihat perbandingan data yang sudah dikumpulkan.
